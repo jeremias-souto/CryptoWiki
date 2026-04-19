@@ -2,10 +2,17 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs'); // Módulo para leer archivos
 const app = express();
-const PORT = 3000;
+const path = require('path');
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json()); // Middleware para que el servidor pueda entender JSON y servir archivos estáticos
 app.use(cors()); // Esto permite que tu frontend se comunique con el backend
+app.use(express.static(path.join(__dirname, '../frontend'))); // Esto le dice a Express que exponga los archivos de la carpeta frontend
+
+// Esto hace que, al entrar a la URL principal, se cargue tu index.html
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../frontend', 'index.html'));
+});
 
 app.get('/bitcoin', (req, res) => {
     // Leemos el archivo

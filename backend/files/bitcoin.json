@@ -5,5 +5,5 @@
     "Supply": "21.000.000",
     "ConsensusMechanisms": "Proof Of Work (POW)",
     "Description": "Bitcoin is a decentralized digital currency and payment system that does not require a central bank or single administrator to function, as it operates through a peer-to-peer network of nodes that verify transactions using cryptography and record them in a public ledger called a blockchain. Consensus among nodes is achieved through a computationally intensive process based on the proof-of-work system known as “mining,” which ensures the security of the blockchain.",
-    "Icon": "bitcoin-logo.png"
+    "Icon": "images/bitcoin-logo.png"
 }

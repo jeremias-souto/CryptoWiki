@@ -33,7 +33,7 @@ Para ejecutar el proyecto en tu computadora, sigue estos pasos:
    node server.js
    ```
    *(Verás un mensaje indicando que el servidor corre en `http://localhost:3000`)*.
-5. **Abrir la aplicación:** Una vez que el servidor esté encendido, ve a la carpeta `frontend` y abre el archivo `index.html` en tu navegador web (haciendo doble clic sobre él o mediante útiles como Live Server de VS Code).
+5. **Abrir la aplicación:** Abre tu navegador web y navega a [http://localhost:3000](http://localhost:3000). El backend de Express se encarga de servir el frontend de forma estática, por lo que no es necesario abrir el archivo `index.html` manualmente ni usar extensiones como Live Server.
 
 ---
 

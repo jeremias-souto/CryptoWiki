@@ -10,9 +10,9 @@ button.addEventListener("click", function () {
     let url;
 
     if (selectedValue === "1") {
-        url = `http://localhost:${PORT}/bitcoin`;
+        url = "/bitcoin";
     } else {
-        url = `http://localhost:${PORT}/ethereum`;
+        url = "/ethereum";
     }
 
     fetch(url)
@@ -26,7 +26,7 @@ button.addEventListener("click", function () {
                 <p><strong>Supply:</strong> ${data.Supply}</p>
                 <p><strong>Consensus Mechanisms:</strong> ${data.ConsensusMechanisms}</p>
                 <p style="max-width: 750px; margin: 0 auto;"><strong>Description:</strong> ${data.Description}</p>
-                <img src="/backend/files/${data.Icon}" style="width: 100px; height: auto; margin-top:10px;" alt="Icon of ${data.Name}">
+                <img src="${data.Icon}" style="width: 100px; height: auto; margin-top:10px;" alt="Icon of ${data.Name}">
             `;
         })
         .catch(error => console.error("Error:", error)); // Por si el servidor está apagado
