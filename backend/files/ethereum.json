@@ -1,0 +1,9 @@
+{
+    "Name": "Ethereum",
+    "Creator": "Vitalik Buterin",
+    "Year": "2015",
+    "Supply": "Inf",
+    "ConsensusMechanisms": "Proof Of Stake (POS)",
+    "Description": "Ethereum is an open-source blockchain platform that enables the creation and execution of smart contracts and decentralized applications (dApps). Ethereum is programmable, giving developers the ability to build decentralized applications and services on its network. These decentralized applications leverage the transactional capabilities of cryptocurrencies, the programmability of smart contracts, and blockchain technology. They are reliable and predictable, meaning that once they are deployed (mined) on Ethereum, they will always execute as programmed.",
+    "Icon": "ethereum-logo.png"
+}
