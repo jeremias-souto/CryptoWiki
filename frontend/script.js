@@ -3,7 +3,7 @@ const button = document.querySelector(".button");
 
 button.addEventListener("click", function () {
 
-    const selectedValue = op.value; // 1 o 2
+    const selectedValue = op.value; // 1, 2 o 3
 
     const PORT = 3000;
 
@@ -11,8 +11,10 @@ button.addEventListener("click", function () {
 
     if (selectedValue === "1") {
         url = "/bitcoin";
-    } else {
+    } else if (selectedValue === "2") {
         url = "/ethereum";
+    } else {
+        url = "/usdt";
     }
 
     fetch(url)

@@ -1,0 +1,9 @@
+{
+    "Name": "USDT",
+    "Creator": "Brock Pierce, Reeve Collins and Craig Sellars",
+    "Year": "2014",
+    "Supply": "Inf",
+    "ConsensusMechanisms": "None",
+    "Description": "Tether (also known by its ticker symbol USDT) is a cryptocurrency whose tokens are issued by Tether Limited. It is considered a stablecoin because it was originally designed to be worth $1.00 at all times, with $1.00 held in reserves for every Tether issued.",
+    "Icon": "images/usdt-logo.png"
+}
