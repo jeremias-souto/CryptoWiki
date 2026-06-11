@@ -1,0 +1,9 @@
+{
+    "Name": "Litecoin",
+    "Creator": "Charlie Lee",
+    "Year": "2011",
+    "Supply": "84.000.000",
+    "ConsensusMechanisms": "Proof Of Work (POW)",
+    "Description": "Litecoin is a cryptocurrency and open-source software project inspired by Bitcoin and virtually identical to it in technical terms. It was designed to serve as an alternative to Bitcoin for low-value transactions, and each Litecoin is divided into 100,000,000 smaller units, defined by eight decimal places.",
+    "Icon": "images/litecoin-logo.png"
+}
