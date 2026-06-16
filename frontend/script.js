@@ -7,19 +7,16 @@ button.addEventListener("click", function () {
 
     const PORT = 3000;
 
-    let url;
+    const translationDictionary = {
+        "1" : "/bitcoin",
+        "2" : "/ethereum",
+        "3" : "/usdt",
+        "4" : "/litecoin",
+        "5" : "/bitcoin_cash",
+        "6" : "/ethereum_classic"
+    };
 
-    if (selectedValue === "1") {
-        url = "/bitcoin";
-    } else if (selectedValue === "2") {
-        url = "/ethereum";
-    } else if (selectedValue === "3") {
-        url = "/usdt";
-    } else if (selectedValue === "4") {
-        url = "/litecoin";
-    } else {
-        url = "/bitcoin_cash";
-    }
+    let url = translationDictionary[selectedValue];
 
     fetch(url)
         .then(response => response.json()) // Convertir a JSON

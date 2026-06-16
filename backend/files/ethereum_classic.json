@@ -1,0 +1,9 @@
+{
+    "Name": "Ethereum Classic",
+    "Creator": "Vitalik Buterin",
+    "Year": "2015",
+    "Supply": "210.700.000",
+    "ConsensusMechanisms": "Proof Of Work (POW)",
+    "Description": "Ethereum Classic is an open-source, blockchain-based distributed computing platform that offers smart contract functionality. Ethereum Classic preserves the original, unaltered history of the Ethereum network. The Ethereum project’s mainnet was initially launched via Frontier on 30 July 2015. However, following a hack of a third-party project, the Ethereum Foundation created a new version of the Ethereum mainnet on 20 July 2016, implementing an irregular state change that erased the DAO theft from the blockchain’s history. The Foundation applied its trademark to this new, altered version of the Ethereum blockchain. The previous, unaltered version (which contains the aforementioned issue) was renamed and continued as Ethereum Classic.",
+    "Icon": "images/ethereum_classic-logo.png"
+}
