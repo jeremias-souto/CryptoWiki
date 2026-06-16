@@ -15,8 +15,10 @@ button.addEventListener("click", function () {
         url = "/ethereum";
     } else if (selectedValue === "3") {
         url = "/usdt";
-    } else {
+    } else if (selectedValue === "4") {
         url = "/litecoin";
+    } else {
+        url = "/bitcoin_cash";
     }
 
     fetch(url)

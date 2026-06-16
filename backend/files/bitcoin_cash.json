@@ -1,0 +1,9 @@
+{
+    "Name": "Bitcoin Cash",
+    "Creator": "Satoshi Nakamoto",
+    "Year": "2017",
+    "Supply": "21.000.000",
+    "ConsensusMechanisms": "Proof Of Work (POW)",
+    "Description": "Bitcoin Cash is a cryptocurrency and open-source project that originated from a fork of the Bitcoin network on 1 August 2017. According to its supporters, its aim is to continue the vision of the creator of the Bitcoin protocol (Satoshi Nakamoto) for a peer-to-peer electronic cash system, drawing on the white paper and the author’s public statements in forums and mailing lists. Its community emphasises the currency’s role as a medium of exchange, as well as the need for a scalable network capable of meeting growing demand independently of complementary second-layer solutions such as sidechains, payment channels like the Lightning Network, or other systems with off-chain accounting.",
+    "Icon": "images/bitcoin_cash-logo.png"
+}

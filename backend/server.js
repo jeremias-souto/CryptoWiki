@@ -75,6 +75,21 @@ app.get('/litecoin', (req, res) => {
     });
 });
 
+app.get('/bitcoin_cash', (req, res) => {
+    // Leemos el archivo
+    fs.readFile('files/bitcoin_cash.json', 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).json({ error: 'The file could not be read'});
+        }
+        try {
+            const objetoJS = JSON.parse(data);
+            res.json(objetoJS);
+        } catch (parseError) {
+            res.status(500).json({ error: 'Error processing the JSON data'});
+        }
+    });
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
